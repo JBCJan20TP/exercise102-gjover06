@@ -10,6 +10,7 @@ public class HomeController {
     @RequestMapping("/")
     public String homePage(Model model){
         model.addAttribute("myvar", "I am still learning.");
+        model.addAttribute("myvar1", "I am going to see this through.");
         return "learningtemplate";
 
     }
